@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummypage</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .outer {
+  
+  overflow-x: hidden;
+	  overflow-y: hidden;
+
+}
+
+.container {
+  display: flex;
+  transition: transform .4s ease-in;
+}
+
+.inner {
+  flex: 0 0 25%;
+  height: 100px;
+	margin:10px;
+}
+.paddle {
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+	width: 30px;
+	height:20px;
+}
+.lefty {
+	left: 0;
+  z-index:1;
+}
+.righty{
+	right: 0;
+   z-index:1;
+}
+</style>
+<body>
+    <button class="lefty paddle" id="left-button"></button>
+<div class="outer" id="content">
+  <div class="container">
+    <div class="inner" style="background:red"></div>
+    <div class="inner" style="background:green"></div>
+    <div class="inner" style="background:blue"></div>
+    <div class="inner" style="background:yellow"></div>
+    <div class="inner" style="background:orange"></div>
+  </div>
+</div>
+<button class="righty paddle" id="right-button"></button>
+</body>
+</html>
+<script>
+    const container = document.querySelector(".container");
+const lefty = document.querySelector(".lefty");
+let translate = 0;
+
+lefty.addEventListener("click", function() {
+  	translate += 200;
+  	container.style.transform = "translateX(" + translate + "px" + ")";
+});
+
+const righty = document.querySelector(".righty");
+righty.addEventListener("click", function() {
+  	translate -= 200;
+  	container.style.transform = "translateX(" + translate + "px" + ")";
+});
+</script>
