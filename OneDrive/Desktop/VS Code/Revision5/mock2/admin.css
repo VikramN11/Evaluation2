@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9b600;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav > h3 a{
+    text-decoration: none;
+    color: white;
+}
+
+div{
+    width: 25%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+form input{
+    width: 100%;
+    height: 35px;
+    border: 0px;
+}
+
+form input:last-child{
+    background-color: #f9b600;
+    border-radius: 0 0 10px 10px;
+    color: white;
+    font-size: large;
+}

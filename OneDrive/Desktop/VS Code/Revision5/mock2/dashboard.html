@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="sortId">
+        <label>Sort By Age</label>
+        <select name="sortbyage" id="ageId">
+            <option>Select Order</option>
+            <option value="low to high">low to high</option>
+            <option value="high to low">high to low</option>
+        </select>
+    </div>
+    <div id="filterId">
+        <label>Filter By Gender</label><br>
+        <input type="radio" name="gender" id="maleId">
+        <label>Male</label>
+        <input type="radio" name="gender" id="femaleId">
+        <label>Female</label>
+    </div>
+    <div id="searchId">
+      <input type="text" id="searchInput" placeholder="Search by Name">
+      <button id="searchBtn">Search</button>
+    </div>
+    <div id="mainContainer">
+        <!-- data goes here -->
+    </div>
+</body>
+<script src="dashboard.js"></script>
+</html>

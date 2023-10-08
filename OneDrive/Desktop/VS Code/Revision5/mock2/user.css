@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input, select{
+    width: 30%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+input:last-child{
+    background-color: #f9b600;
+    color: white;
+    border: none;
+}

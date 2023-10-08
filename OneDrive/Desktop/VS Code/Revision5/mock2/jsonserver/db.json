@@ -1,0 +1,100 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Cherry",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*",
+      "age": 2,
+      "place": "Visakhapatnam",
+      "gender": "Male"
+    },
+    {
+      "id": 2,
+      "name": "Tommy",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*",
+      "age": 3,
+      "place": "Banglore",
+      "gender": "Female"
+    },
+    {
+      "name": "Sunny",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*",
+      "age": "4",
+      "place": "Nagpur",
+      "gender": "Female",
+      "id": 5
+    },
+    {
+      "name": "Meenu",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*",
+      "age": "4",
+      "place": "Udaipur",
+      "gender": "Female",
+      "id": 6
+    },
+    {
+      "name": "Pillu",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*",
+      "age": "2",
+      "place": "Keslapur",
+      "gender": "Male",
+      "id": 7
+    },
+    {
+      "name": "Tillu",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*",
+      "age": "3",
+      "place": "Keslapur",
+      "gender": "Male",
+      "id": 8
+    },
+    {
+      "name": "Bhuru",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*",
+      "age": "3",
+      "place": "Nagpur",
+      "gender": "Female",
+      "id": 9
+    },
+    {
+      "name": "dillo",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*",
+      "age": "4",
+      "place": "Surat",
+      "gender": "Female",
+      "id": 10
+    },
+    {
+      "name": "Billo",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*",
+      "age": "5",
+      "place": "Delhi",
+      "gender": "Female",
+      "id": 11
+    },
+    {
+      "name": "prasad",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*",
+      "age": "26",
+      "place": "Aarmori",
+      "gender": "Male",
+      "id": 12
+    },
+    {
+      "name": "Pillu",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*",
+      "age": "6",
+      "place": "Surat",
+      "gender": "Male",
+      "id": 13
+    },
+    {
+      "name": "Pillu",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*",
+      "age": "5",
+      "place": "Nagpur",
+      "gender": "Female",
+      "id": 14
+    }
+  ]
+}
