@@ -1,0 +1,55 @@
+{
+    "quiz": [
+        {
+          "question": "What is the capital of France?",
+          "options": ["New York", "London", "Paris", "Dublin"],
+          "answer": "Paris"
+        },
+        {
+          "question": "Who painted the Mona Lisa?",
+          "options": ["Vincent Van Gogh", "Pablo Picasso", "Leonardo Da Vinci", "Claude Monet"],
+          "answer": "Leonardo Da Vinci"
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "options": ["Brain", "Heart", "Lungs", "Skin"],
+            "answer": "Skin"
+          },
+          {
+            "question": "Who is the author of the Harry Potter book series?",
+            "options": ["J.R.R. Tolkien", "J.K. Rowling", "C.S. Lewis", "George Orwell"],
+            "answer": "J.K. Rowling"
+          },
+          {
+            "question": "What is the largest mammal in the world?",
+            "options": ["Lion", "Elephant", "Blue Whale", "Giraffe"],
+            "answer": "Blue Whale"
+          },
+          {
+            "question": "Which planet is known as the Red Planet?",
+            "options": ["Mars", "Jupiter", "Venus", "Saturn"],
+            "answer": "Mars"
+          },
+          {
+            "question": "In which year did Christopher Columbus first arrive in the Americas?",
+            "options": ["1620", "1776", "1812", "1492"],
+            "answer": "1492"
+          },
+          {
+            "question": "What is the largest ocean in the world?",
+            "options": ["Pacific Ocean", "Indian Ocean", "Arctic Ocean", "Atlantic Ocean"],
+            "answer": "Pacific Ocean"
+          },
+          {
+            "question": "Which gas makes up the majority of Earth's atmosphere?",
+            "options": ["Carbon Dioxide", "Nitrogen", "Oxygen", "Hydrogen"],
+            "answer": "Nitrogen"
+          },
+          {
+            "question": "Who is known as the father of modern physics and developed the theory of relativity?",
+            "options": ["Galileo Galilei", "Isaac Newton", "Albert Einstein", "Stephen Hawking"],
+            "answer": "Albert Einstein"
+          }
+      ]
+      
+  }
